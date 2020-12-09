@@ -1,0 +1,22 @@
+{
+    "name": "kloner/admin-theme",
+    "description": "Magento 2 Custom Admin Theme",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Nino Riconalla",
+        "homepage": "https://www.copypaste.ph",
+        "role": "Dev"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Kloner\\AdminTheme\\": ""
+      }
+    }
+  }

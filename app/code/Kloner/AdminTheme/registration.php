@@ -6,5 +6,5 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Kloner_AdminLogo', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Kloner_AdminTheme', __DIR__);
 
